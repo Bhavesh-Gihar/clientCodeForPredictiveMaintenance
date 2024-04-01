@@ -2,6 +2,6 @@
 
 ##### Install Modules
 
-cd /home/app/Client/
+cd /home/bhavesh/Client/
 npm install
 

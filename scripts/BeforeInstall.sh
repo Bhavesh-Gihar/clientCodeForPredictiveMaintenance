@@ -2,7 +2,7 @@
 
 #update the system
 
-rm -rf /home/app/Client
+rm -rf /home/bhavesh/Client
 
 sudo apt-get -y update
 sudo apt-get -y upgrade
