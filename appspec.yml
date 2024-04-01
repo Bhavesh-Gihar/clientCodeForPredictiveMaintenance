@@ -6,8 +6,8 @@ files:
 permissions:
   - object: /
     pattern: "**"
-    owner: app
-    group: app
+    owner: bhavesh
+    group: bhavesh
 hooks:
   ApplicationStop:
     - location: scripts/ApplicationStop.sh
