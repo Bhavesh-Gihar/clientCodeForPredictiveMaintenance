@@ -2,26 +2,26 @@ version: 0.0
 os: linux
 files:
   - source: /client/app/
-    destination: /home/pi/Client
+    destination: /home/bhavesh/Client
 permissions:
   - object: /
     pattern: "**"
-    owner: pi
-    group: pi
+    owner: bhavesh
+    group: bhavesh
 hooks:
   ApplicationStop:
     - location: scripts/ApplicationStop.sh
       timeout: 60
-      runas: pi
+      runas: bhavesh
   BeforeInstall:
     - location: scripts/BeforeInstall.sh
       timeout: 300
-      runas: pi
+      runas: bhavesh
   AfterInstall:
     - location: scripts/AfterInstall.sh
       timeout: 300
-      runas: pi
+      runas: bhavesh
   ApplicationStart:
     - location: scripts/ApplicationStart.sh
       timeout: 60
-      runas: pi
+      runas: bhavesh

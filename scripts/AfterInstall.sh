@@ -2,6 +2,6 @@
 
 ##### Install Modules
 
-cd /home/pi/ClientCodeForPredictiveMaintenance/
+cd /home/bhavesh/ClientCodeForPredictiveMaintenance/
 npm install
 
