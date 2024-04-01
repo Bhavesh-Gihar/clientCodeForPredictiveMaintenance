@@ -12,16 +12,16 @@ hooks:
   ApplicationStop:
     - location: scripts/ApplicationStop.sh
       timeout: 60
-      runas: app
+      runas: bhavesh
   BeforeInstall:
     - location: scripts/BeforeInstall.sh
       timeout: 300
-      runas: app
+      runas: bhavesh
   AfterInstall:
     - location: scripts/AfterInstall.sh
       timeout: 300
-      runas: app
+      runas: bhavesh
   ApplicationStart:
     - location: scripts/ApplicationStart.sh
       timeout: 60
-      runas: app
+      runas: bhavesh
