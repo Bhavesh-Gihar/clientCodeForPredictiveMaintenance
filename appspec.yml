@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /client/app/
-    destination: /home/app/Client
+    destination: /home/bhavesh/Client
 permissions:
   - object: /
     pattern: "**"
