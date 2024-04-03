@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /app/
-    destination: /home/bhavesh/Client
+    destination: /home/bhavesh/clientCodeForPredictiveMaintenance
 permissions:
   - object: /
     pattern: "**"
